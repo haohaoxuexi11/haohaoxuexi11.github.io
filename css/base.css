@@ -1,0 +1,76 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+body {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 25px;
+	color: #333;
+	background: url(../images/curry.png) no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+.nav {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #738CAA;
+	width: 823px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;	
+	opacity: 0.85;
+	border-radius: 10px;
+}
+.main {
+	color: #000;
+	background-color: white;	
+	opacity: 0.85;
+	border-radius: 10px;
+}
+.nav :hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.52);
+}
+.main:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.52);
+}
+a {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+a:link {
+	color: #333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+	color: rgb(206, 61, 35);
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
+.title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #200F15;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #200F15;
+	padding-left: 10px;
+	font-size: 17px;
+	font-weight: 700;
+	color: rgb(236, 152, 26);
+}

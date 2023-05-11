@@ -1,0 +1,84 @@
+.per {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+.p {
+    font-size: 15px;
+    font-weight: 500;
+    width: 500px;
+    height: 200px;
+    color: black;
+}
+
+.q {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.oxu {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.w {
+    width: 800px;
+    margin: auto;
+}
+
+.box {
+    margin-top: 10px;
+}
+.box-hd {
+    height: 45px;
+}
+.box-hd h2 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box-bd ul {
+    width: 800px;
+}
+.box-bd ul li {
+    float: left;
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.box-bd ul li img {
+    width: 100%;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+  .clearfix {
+     *zoom:1;
+  }  
+
+.duo {
+    padding-top: 100px;
+}
+.xianyou1 {
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.xia {
+    margin-top: 100px;
+}
